@@ -1,0 +1,128 @@
+.flag-section-main {
+    background-image: linear-gradient(#605daf, #f7e6c2, #d3978b);
+    min-height: 85vh;
+}
+
+.flag-section-main .col {
+    height: fit-content;
+}
+
+.flag-section-form-title {
+    background-color: var(--main-blue);
+    color: whitesmoke;
+    padding: 1.25rem 1rem;
+    text-align: center;
+
+}
+
+.certification-services-content h3 {
+    color: #525151;
+}
+
+.certification-services-content p {
+    line-height: 1.75rem;
+    color: #858383;
+}
+
+#certification-services-title-top {
+    transition: all 1s ease-in-out;
+
+}
+
+.certification-body .certification-body-heading::before {
+    position: absolute;
+    content: "";
+    min-width: 500px;
+    height: 4px;
+    background-color: var(--main-blue);
+    left: 0;
+    top: 50%;
+
+}
+
+.certification-body .certification-body-heading::after {
+    position: absolute;
+    content: "";
+    min-width: 500px;
+    height: 4px;
+    background-color: var(--main-blue);
+    right: 0;
+    top: 50%;
+
+}
+
+.certification-body>div:first-of-type {
+    background-color: #dfe6d0;
+}
+
+.certification-body .container {
+    padding: 5rem 0;
+}
+
+.certification-body .container ul li {
+    margin: 1rem 0;
+}
+
+.certification-body .container ul li div {
+    background-color: var(--main-blue);
+    color: whitesmoke;
+    width: 17px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 0.75rem;
+}
+
+@media (min-width:1023px) and (max-width:1439px) {
+    .certification-body .certification-body-heading::before {
+        width: 310px;
+
+    }
+
+    .certification-body .certification-body-heading::after {
+        width: 310px;
+
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .certification-body .certification-body-heading::before {
+        display: none;
+
+    }
+
+    .certification-body .certification-body-heading::after {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .certification-body-title {
+        font-size: 1.10rem;
+    }
+
+    .certification-body .certification-body-heading::before {
+        display: none;
+
+    }
+
+    .certification-body .certification-body-heading::after {
+        display: none;
+
+    }
+
+    .certification-body .container ul li {
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .certification-services-title,
+    .certification-body-heading {
+        font-size: 1.08rem;
+    }
+}
