@@ -24,10 +24,155 @@
     <!-- !--------------------------------------------------Header Start------------------------------------------------------------->
     <header>
         <div>
-            <div class="d-block  d-lg-flex justify-content-center align-items-end ">
-                <div class="m-auto m-lg-0" id="logo">
-                    <a href="../index.html"> <img class="w-100" src="../images/Americo logo 2.7cm X 2.7cm.jpg"
-                            alt="logo" /></a>
+            <div class="d-block  d-lg-flex justify-content-center align-items-end position-relative ">
+                <div class="m-lg-0" id="logo">
+                    <a href="#"> <img class="w-100" src="../images/Americo logo 2.7cm X 2.7cm.jpg" alt="logo" /></a>
+                </div>
+                <div class="modals mx-3 d-flex justify-content-center gap-3 d-lg-none">
+                    <div class="d-flex flex-column gap-3 position-absolute top-0 end-0 mt-4">
+                        <button type="button" class="btn bg-red text-white fw-semibold " data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Check Certificate
+                        </button>
+                        <button type="button" class="btn bg-red text-white fw-semibold " data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop1">
+                            Attachment Documents
+                        </button>
+                    </div>
+                    <div class="modal fade " id="staticBackdrop" data-bs-backdrop="true" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-centered">
+                            <div class="modal-content bg-beige rounded-0 py-4 px-3">
+                                <div class="modal-header bg-red rounded-0">
+                                    <h2 class="modal-title mx-auto text-beige fs-5" id="staticBackdropLabel">Check
+                                        Certificate
+                                        Status </h2>
+                                    <button type="button" class="btn  text-beige border border-2"
+                                        data-bs-dismiss="modal" aria-label="Close">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div>
+                                            <label class="form-label fw-bold text-secondary" for="clientName">CLIENT
+                                                NAME (PLEASE
+                                                ENTER
+                                                FIRST 3 LETTER ONLY OF YOUR COMPANY NAME)</label>
+                                            <input class="form-control" type="text" id="clientName">
+                                        </div>
+                                        <div class="mt-2">
+                                            <label class="form-label fw-bold text-secondary"
+                                                for="certificateNo">CERTIFICATE NO.
+                                            </label>
+                                            <input class="form-control" type="text" id="certificateNo">
+                                        </div>
+                                        <div class=" mt-4">
+                                            <button type="button"
+                                                class="btn bg-red text-beige rounded-0 fw-semibold w-100"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                                                aria-expanded="false" aria-controls="collapseExample"> CHECK
+                                                STATUS</button>
+                                        </div>
+                                        <div class="collapse my-3" id="collapseExample">
+                                            <div class="">
+                                                <table class="table  border border-2">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Client Name </th>
+                                                            <td class="text-secondary">BARADA International
+                                                                Contracting Company
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Certificate No. </th>
+                                                            <td class="text-secondary">AMER17482</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Country</th>
+                                                            <td class="text-secondary">Saudi Arabia</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Company Address </th>
+                                                            <td class="text-secondary">Saudi Arabia - Riyadh
+                                                                - North Mathar dist. -
+                                                                Makkah Al Mukarramah Street</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Company Address 2 </th>
+                                                            <td class="text-secondary"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Standard</th>
+                                                            <td class="text-secondary">ISO 9001:2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Certification Date </th>
+                                                            <td class="text-secondary">2024-04-01</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Expiry Date </th>
+                                                            <td class="text-secondary">2025-03-31</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Certification Body </th>
+                                                            <td class="text-secondary">AMERICO UAF</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Recertification Date </th>
+                                                            <td class="text-secondary">2027-03-31</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Scope</th>
+                                                            <td class="text-secondary">• Construction of
+                                                                Residential Buildings •
+                                                                Construction of Motorways, Streets, Roads •
+                                                                Repair and Maintenance of Motorways,
+                                                                Streets, Roads • Paving Contracting and
+                                                                Urban Spaces • Landscape Including (
+                                                                Planting, Irrigation, Lighting, and Site
+                                                                Fixtures ) • Design & Study Construction
+                                                                projects- • Management and Supervision of
+                                                                Construction projects • Surveying Work for
+                                                                Construction Projects
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="border text-secondary">
+                                                                Certificate Status </th>
+                                                            <td class="text-secondary">Active</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="true" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content bg-beige rounded-0 py-4 px-3">
+                                <div class="modal-header border-0">
+                                    <input type="file" name="" id="" class="form-control ">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <nav class="navbar navbar-expand-lg">
                     <div class="container">
@@ -39,7 +184,7 @@
                         <div class="collapse navbar-collapse flex-grow-0 " id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mt-3 mt-lg-0 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">About Us</a>
@@ -86,7 +231,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
+                                    <a class="nav-link" href="pages/blog.html">Blog</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Contact Us</a>
@@ -141,7 +286,7 @@
                                 </li>
                             </ul>
 
-                            <div class="modals mx-3 d-flex justify-content-center gap-3">
+                            <div class="modals mx-3 d-none d-lg-flex justify-content-center gap-3">
                                 <button type="button" class="btn bg-red text-white fw-semibold " data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">
                                     Check Certificate
@@ -299,7 +444,8 @@
         <div class="container row row-cols-1 row-cols-lg-2 justify-content-center p-5 gy-2">
             <div class="col">
                 <div>
-                    <img class="w-100" src="../images/Flag-of-Kuwait-–-slon_pics-–-free-stock-photos-and-illustrations.jpg" alt="">
+                    <img class="w-100"
+                        src="../images/Flag-of-Kuwait-–-slon_pics-–-free-stock-photos-and-illustrations.jpg" alt="">
                 </div>
             </div>
             <div class="col">
@@ -328,7 +474,8 @@
     <!-- !--------------------------------------------------Main Section End--------------------------------------------------------->
     <!-- !-------------------------------------------------Certification Services Content Top Start---------------------------------->
     <div class="certification-services-content container p-5 mt-5">
-        <h3 class="text-center certification-services-title fw-bold mb-3" id="certification-services-title-top">ISO Certification Services In Kuwait</h3>
+        <h3 class="text-center certification-services-title fw-bold mb-3" id="certification-services-title-top">ISO
+            Certification Services In Kuwait</h3>
         <p class="fw-medium">Americo is a leading ISO Certification body offering ISO Certifications in Kuwait. ISO
             certification is
             recognized internationally, spanning over 150 countries. In today's digital era, gaining a competitive
