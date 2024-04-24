@@ -1,0 +1,32 @@
+.section-img {
+    background-image: url('../images/abstract-banner-with-world-map_1048-12232.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main .col {
+    color: var(--main-red);
+    font-weight: bolder;
+
+}
+
+.main .col a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main .col i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.main .col:hover i{
+    color: var(--main-blue);
+}
+
+@media screen and (max-width:768px) {
+    .main form input, .main form .textarea,.main form button{
+        width: 100% !important;
+    }
+}
