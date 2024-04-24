@@ -1,0 +1,30 @@
+.bg-light-cyan {
+    background-color: rgb(237, 240, 218);
+}
+
+.section-heading {
+    color: var(--main-red);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.services-section-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px ;
+}
+@media screen and (max-width:426px) {
+
+    .section-heading{
+        font-size: 2.5rem;
+    }
+    section p{
+        font-size: 0.75rem;
+    }
+}
