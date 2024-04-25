@@ -1,0 +1,39 @@
+.section-title {
+    color: var(--main-red); 
+    font-weight: bold;
+}
+
+.section-title::before {
+    display: none;
+
+}
+.accordion-section .row .col:first-child .accordion-collapse{
+    background-color: #ffe7d0;
+}
+.accordion-section .row .col:last-child .accordion-collapse{
+    background-color: #f3ffe4;
+}
+.accordion-button:focus{
+    color: var(--main-blue) !important;
+}
+
+.procedures-section i{
+    color: var(--main-red);
+}
+.certification-images-section .row .col{
+    max-width: 500px;
+    height: 700px;
+}
+@media (min-width:426px)  and ( max-width:769px){
+    .section-title{
+        font-size: 2rem ;
+    }
+}
+@media screen  and ( max-width:426px){
+    .section-title{
+        font-size: 1.15rem ;
+    }
+    .procedures-section ul li{
+        font-size: 0.75rem;
+    }
+}
