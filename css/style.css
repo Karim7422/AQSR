@@ -39,6 +39,24 @@ hr {
     margin: 0 !important;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+p,
+span,
+.tab-pane,
+.small-circle,
+button,
+a,li {
+    font-family: var(--paragraph-font) !important;
+}
+
 .section-title {
     position: relative;
     font-size: 45px;
@@ -122,7 +140,7 @@ header .modal-content {
 }
 
 .main-section h2 {
-    max-width: 460px;
+    max-width: 505px;
 }
 
 #certificate-img {
