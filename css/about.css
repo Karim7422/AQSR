@@ -1,0 +1,90 @@
+
+.section-title::before {
+    display: none;
+}
+
+.main-about-section .row .col:last-child {
+    max-width: 475px;
+    height: 310px;
+}
+
+.about-section {
+    background-color: #f3ffe4;
+}
+
+.about-section .row .col {
+    max-height: 400px;
+
+}
+
+.about-section .row .col div {
+    height: 100%;
+    box-shadow: 0px 0px 15px 0px #00000085;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-section .row .col div:hover {
+    box-shadow: 0px 0px 5px 0px #00000085;
+}
+
+.about-section .row .col:last-child div p:nth-of-type(2) {
+    max-width: 255px;
+    margin: 0 auto;
+}
+
+.team-section .img {
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.team-section .img:hover {
+    scale: 1.1;
+}
+
+.team-position {
+    position: relative;
+}
+
+.team-position::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: rgb(31, 163, 31);
+    bottom: -10px;
+    left: 50%;
+    translate: -50% 50%;
+}
+
+.usp-section ,.quality-policy-section{
+    background-color: #d2e7e7;
+}
+
+.usp-section ul li i {
+    color: var(--main-red);
+}
+
+.usp-section ul li:hover i {
+    color: var(--main-blue);
+}
+
+.infrastructure-img ,.members-img {
+    width: 200px;
+    height: 200px;
+}
+
+.infrastructure-img img {
+    object-fit: cover;
+}
+
+.infrastructure-img img:hover {
+    filter: sepia(20%);
+}
+.members-img img{
+    transition: all 0.3s ease-in-out;
+}
+.members-img img:hover{
+    scale: 1.1;
+}
