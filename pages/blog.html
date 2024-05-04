@@ -161,14 +161,28 @@
                         </div>
                     </div>
 
+                    <!-- !------------------------------------------Small Screens----------------------------->
                     <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="true" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content bg-beige rounded-0 py-4 px-3">
-                                <div class="modal-header border-0">
-                                    <input type="file" name="" id="" class="form-control ">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div class="mt-2">
+                                            <label class="form-label fw-bold text-secondary"
+                                                for="certificateNo">CERTIFICATE NO.
+                                            </label>
+                                            <input class="form-control" type="text" id="certificateNo">
+                                        </div>
+                                        <div class="mt-4">
+                                            <input type="file" name="" id="" class="form-control ">
+                                        </div>
+                                        <div class=" mt-4">
+                                            <button type="button"
+                                                class="btn bg-red text-beige rounded-0 fw-semibold w-100">
+                                                Apply</button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -286,6 +300,7 @@
                                 </li>
                             </ul>
 
+                            <!-- !------------------------------lg Screens-------------------------------->
                             <div class="modals mx-3 d-none d-lg-flex justify-content-center gap-3">
                                 <button type="button" class="btn bg-red text-white fw-semibold " data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop2">
@@ -422,10 +437,34 @@
                                     aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content bg-beige rounded-0 py-4 px-3">
-                                            <div class="modal-header border-0">
-                                                <input type="file" name="" id="" class="form-control ">
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
+                                            <div class="modal-dialog  modal-dialog-centered">
+                                                <div class="modal-content bg-beige rounded-0 py-4 px-3  border-0">
+                                                    <div class="modal-header bg-red rounded-0">
+                                                        <h2 class="modal-title mx-auto text-beige fs-5"
+                                                            id="staticBackdropLabel"> Attachment Documents </h2>
+                                                        <button type="button" class="btn  text-beige border border-2"
+                                                            data-bs-dismiss="modal" aria-label="Close">Close</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form action="">
+                                                            <div class="mt-2">
+                                                                <label class="form-label fw-bold text-secondary"
+                                                                    for="certificateNo">CERTIFICATE NO.
+                                                                </label>
+                                                                <input class="form-control" type="text"
+                                                                    id="certificateNo">
+                                                            </div>
+                                                            <div class="mt-4">
+                                                                <input type="file" name="" id="" class="form-control ">
+                                                            </div>
+                                                            <div class=" mt-4">
+                                                                <button type="button"
+                                                                    class="btn bg-red text-beige rounded-0 fw-semibold w-100">
+                                                                    Apply</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

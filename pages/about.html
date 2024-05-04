@@ -26,7 +26,8 @@
         <div>
             <div class="d-block  d-lg-flex justify-content-center align-items-end position-relative ">
                 <div class="m-lg-0" id="logo">
-                    <a href="../index.html"> <img class="w-100" src="../images/Americo logo 2.7cm X 2.7cm.jpg" alt="logo" /></a>
+                    <a href="../index.html"> <img class="w-100" src="../images/Americo logo 2.7cm X 2.7cm.jpg"
+                            alt="logo" /></a>
                 </div>
                 <div class="modals mx-3 d-flex justify-content-center gap-3 d-lg-none">
                     <div class="d-flex flex-column gap-3 position-absolute top-0 end-0 mt-4">
@@ -161,14 +162,28 @@
                         </div>
                     </div>
 
+                    <!-- !------------------------------------------Small Screens----------------------------->
                     <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="true" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content bg-beige rounded-0 py-4 px-3">
-                                <div class="modal-header border-0">
-                                    <input type="file" name="" id="" class="form-control ">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div class="mt-2">
+                                            <label class="form-label fw-bold text-secondary"
+                                                for="certificateNo">CERTIFICATE NO.
+                                            </label>
+                                            <input class="form-control" type="text" id="certificateNo">
+                                        </div>
+                                        <div class="mt-4">
+                                            <input type="file" name="" id="" class="form-control ">
+                                        </div>
+                                        <div class=" mt-4">
+                                            <button type="button"
+                                                class="btn bg-red text-beige rounded-0 fw-semibold w-100">
+                                                Apply</button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -286,6 +301,7 @@
                                 </li>
                             </ul>
 
+                            <!-- !------------------------------lg Screens-------------------------------->
                             <div class="modals mx-3 d-none d-lg-flex justify-content-center gap-3">
                                 <button type="button" class="btn bg-red text-white fw-semibold " data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop2">
@@ -422,10 +438,34 @@
                                     aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content bg-beige rounded-0 py-4 px-3">
-                                            <div class="modal-header border-0">
-                                                <input type="file" name="" id="" class="form-control ">
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
+                                            <div class="modal-dialog  modal-dialog-centered">
+                                                <div class="modal-content bg-beige rounded-0 py-4 px-3  border-0">
+                                                    <div class="modal-header bg-red rounded-0">
+                                                        <h2 class="modal-title mx-auto text-beige fs-5"
+                                                            id="staticBackdropLabel"> Attachment Documents </h2>
+                                                        <button type="button" class="btn  text-beige border border-2"
+                                                            data-bs-dismiss="modal" aria-label="Close">Close</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form action="">
+                                                            <div class="mt-2">
+                                                                <label class="form-label fw-bold text-secondary"
+                                                                    for="certificateNo">CERTIFICATE NO.
+                                                                </label>
+                                                                <input class="form-control" type="text"
+                                                                    id="certificateNo">
+                                                            </div>
+                                                            <div class="mt-4">
+                                                                <input type="file" name="" id="" class="form-control ">
+                                                            </div>
+                                                            <div class=" mt-4">
+                                                                <button type="button"
+                                                                    class="btn bg-red text-beige rounded-0 fw-semibold w-100">
+                                                                    Apply</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -650,7 +690,8 @@
             <div class="col-12 col-lg-8 d-flex flex-wrap justify-content-center justify-content-md-start gap-2">
                 <div class="infrastructure-img">
                     <img class="w-100 h-100"
-                        src="../images/3d-rendering-business-meeting-working-room-office-building.jpg" alt="infrastructure-img">
+                        src="../images/3d-rendering-business-meeting-working-room-office-building.jpg"
+                        alt="infrastructure-img">
                 </div>
                 <div class="infrastructure-img">
                     <img class="w-100 h-100" src="../images/modern-office-space-interior.jpg" alt="infrastructure-img">
@@ -697,11 +738,13 @@
                 <div class="col-12 col-lg-8 d-flex flex-wrap justify-content-center  gap-2">
                     <div class="members-img shadow-lg">
                         <img class="w-100 h-100"
-                            src="../images/flat-design-cc-logo-template_23-2149231114-removebg-preview.png" alt="company-logo">
+                            src="../images/flat-design-cc-logo-template_23-2149231114-removebg-preview.png"
+                            alt="company-logo">
                     </div>
                     <div class="members-img shadow-lg">
                         <img class="w-100 h-100"
-                            src="../images/modern-abstract-colorful-letter-d_530521-1391-removebg-preview.png" alt="company-logo">
+                            src="../images/modern-abstract-colorful-letter-d_530521-1391-removebg-preview.png"
+                            alt="company-logo">
                     </div>
                     <div class="members-img shadow-lg">
                         <img class="w-100 h-100" src="../images/corporative-logo-template_1095-350-removebg-preview.png"
@@ -741,12 +784,14 @@
     <section class="container py-5">
         <h2 class="section-title text-red text-center fw-bold mb-5">Impartiality Policy </h2>
         <p class="fw-bold">IMPARTIALITY: </p>
-        <p class="text-secondary">Americo is dedicated to upholding impartiality in its provision of management system certification services.
+        <p class="text-secondary">Americo is dedicated to upholding impartiality in its provision of management system
+            certification services.
             We recognize the criticality of impartiality in carrying out certification activities, ensuring the utmost
             objectivity. Our commitment lies in safeguarding the interests of all parties involved, maintaining
             independence and impartiality by adhering rigorously to ethical standards.</p>
         <p class="fw-bold">INDEPENDENCY: </p>
-        <p class="text-secondary">Americo assumes full responsibility and does not outsource decision-making processes related to certification
+        <p class="text-secondary">Americo assumes full responsibility and does not outsource decision-making processes
+            related to certification
             matters, including granting, refusing, maintaining, renewing, extending, reducing, suspending, restoring, or
             withdrawing certification, as well as expanding or reducing certification scope. Our activities are entirely
             separate from any organization offering management system consultancy services and are not marketed or
@@ -919,7 +964,8 @@
                 </div>
                 <div class="col d-flex justify-content-center">
                     <div class="footer-logo">
-                        <img class="w-100" src="../images/Americo_logo_2.7cm_X_2.7cm-removebg-preview.png" alt="footer-logo">
+                        <img class="w-100" src="../images/Americo_logo_2.7cm_X_2.7cm-removebg-preview.png"
+                            alt="footer-logo">
                     </div>
                 </div>
                 <div class="col d-flex justify-content-center">
@@ -932,7 +978,8 @@
             <div id="hashcode">
                 <a href="https://www.facebook.com/hashcode.company" target="_blank">
                     <img class="w-100 h-100"
-                        src="../images/336213596_767048188102465_1523493584207256008_n-removebg-preview.png" alt="hashcode-company-logo">
+                        src="../images/336213596_767048188102465_1523493584207256008_n-removebg-preview.png"
+                        alt="hashcode-company-logo">
                 </a>
             </div>
         </div>
